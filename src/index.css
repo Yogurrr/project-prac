@@ -1,5 +1,6 @@
 .navBorder {
-  border-bottom: 1px solid #984C0C;
+  border-bottom: 1px solid #331904;
+  margin: 0 -300px;
 }
 .row {
   display: flex;
@@ -18,9 +19,12 @@
 footer {
   display: flex;
   justify-content: center;
-  border-top: 1px solid #984C0C;
-  color: #984C0C;
+  color: #331904;;
 }
 footer p {
   margin-top: 10px;
+}
+.footerBorder {
+  border-bottom: 1px solid #331904;;
+  margin: 0 -300px;
 }

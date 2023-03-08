@@ -1,0 +1,11 @@
+.active {
+    font-size: 25px;
+}
+
+.offset-xxl-3 > a:nth-child(1) {
+    font-size: 25px;
+}
+
+.col > a:nth-child(1) {
+    font-size: 25px;
+}

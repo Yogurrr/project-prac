@@ -1,0 +1,23 @@
+.likes   {   /*좋아요를 누른 사찰*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #331904;
+}
+.likeslist {
+    display: flex;
+    border: 2px solid #984C0C;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.likeslist > div {
+    font-size: 20px;
+    text-align: center;
+}
+
+.plz {
+    margin-bottom: 20px;
+}
