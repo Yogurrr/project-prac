@@ -8,11 +8,11 @@ const Nav = () => {
     return (
         <div>
             <Container fluid="xxl">
-                <Row>
+                <Row className="title">
                     <Col xxl={{span: 2}}><NavLink to='/'>Temfo,</NavLink></Col>
-                    <Col xxl={{span: 1, offset: 3}}><NavLink to='/region'>지역</NavLink></Col>
-                    <Col><NavLink to='/calendar'>일정</NavLink></Col>
-                    <Col xxl={{ span:1, offset: 4 }}><NavLink to='/login'>(아이콘)</NavLink></Col>
+                    <Col xxl={{span: 1, offset: 3}}><NavLink to='/region'><i className="bi bi-geo-alt"></i>지역</NavLink></Col>
+                    <Col><NavLink to='/calendar'><i className="bi bi-calendar"></i>일정</NavLink></Col>
+                    <Col xxl={{span:1, offset: 4}}><NavLink to='/login'><i className="bi bi-person"></i></NavLink></Col>
                 </Row>
             </Container>
             <div className="navBorder"></div>

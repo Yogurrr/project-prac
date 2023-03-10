@@ -1,5 +1,6 @@
 .container > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
     margin-top: 90px;
+    margin-bottom: 40px;
 }
 
 /*환영합니다*/
@@ -8,31 +9,12 @@
     font-weight: bold;
     text-align: left;
     color: #331904;
+    margin-top: -3%;
 }
 
-/*이메일*/
-div.row:nth-child(2) > div:nth-child(1) {
+.container-fluid > div:nth-child(2) > div:nth-child(1) {   /*이메일*/
     text-align: left;
     font-size: 14px;
     color: #331904;
-}
-
-.dd {   /*좋아요 | 내정보*/
-    font-size: 25px;
-    color: #331904;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #331904;
-}
-
-.likesmenu {   /*좋아요*/
-    font-weight: bold;
-    margin-left: 40.5%;
-    text-align: right;
-    padding: 0;
-}
-.bar {   /* | */
-    max-width: 30px;
-}
-.infomenu {   /*내정보*/
-    text-align: left;
+    margin-top: 3%;
 }

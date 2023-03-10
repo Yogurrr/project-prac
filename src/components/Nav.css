@@ -1,11 +1,7 @@
-.active {
-    font-size: 25px;
+.title {
+    font-size: 23px;
 }
 
-.offset-xxl-3 > a:nth-child(1) {
-    font-size: 25px;
-}
-
-.col > a:nth-child(1) {
-    font-size: 25px;
+.bi-person {
+    font-size: 27px;
 }

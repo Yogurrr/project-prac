@@ -1,9 +1,30 @@
+.lnm {
+    font-size: 25px;
+    border-bottom: 1px solid #331904;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+.likesmenu1 {   /*좋아요*/
+    font-weight: bold;
+    margin-left: 40.5%;
+    text-align: right;
+    padding: 0;
+}
+.bar1 {   /* | */
+    max-width: 30px;
+}
+.infomenu1 {   /*내정보*/
+    text-align: left;
+    padding: 0;
+}
+
 .likes   {   /*좋아요를 누른 사찰*/
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: #331904;
+    text-align: left;
 }
 .likeslist {
     display: flex;
