@@ -10,11 +10,11 @@ const MyPage2 = () => {
     return (
         <div>
             <MainCommon />
-            <Container fluid="xxl">
+            <Container fluid>
                 <Row className="lnm2">
-                    <Col xxl={{span: 1, offset: 4}} className="likesmenu2"><NavLink to='/'>좋아요</NavLink></Col>
-                    <Col xxl={{span: 1}} className="bar2">|</Col>
-                    <Col xxl={{span: 1}} className="infomenu2">내정보</Col>
+                    <Col className="likesmenu2 col-6"><NavLink to='/'>좋아요</NavLink></Col>
+                    <Col className="bar2 col-1">|</Col>
+                    <Col className="infomenu2 col-5">내정보</Col>
                 </Row>
                 <Row className="aa">
                     <Col xxl={{offset: 1}}>개인정보 유출에 조심하세요.</Col>

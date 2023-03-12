@@ -9,10 +9,10 @@ const MainCommon = () => {
         <div>
             <Container fluid>
                 <Row>
-                    <Col xxl={{span: 2, offset: 1}}>환영합니다</Col>
-                    <Col xxl={{span: 2, offset: 6}} className="buddhist"><img src="/img/buddhist.png" /></Col>
+                    <Col className="col-5 offset-1">환영합니다</Col>
+                    <Col style={{textAlign: "right"}} className="col-5"><img src="/img/buddhist.png" /></Col>
                 </Row>
-                <Row><Col xxl={{span: 2, offset: 1}}>이메일<br />masakisqq@naver.com</Col></Row>
+                <Row><Col className="offset-1">이메일<br />masakisqq@naver.com</Col></Row>
             </Container>
         </div>
     )

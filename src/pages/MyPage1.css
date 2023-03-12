@@ -6,19 +6,21 @@
 }
 .likesmenu1 {   /*좋아요*/
     font-weight: bold;
-    margin-left: 40.5%;
     text-align: right;
+    margin-left: -1%;
     padding: 0;
 }
 .bar1 {   /* | */
-    max-width: 30px;
+    max-width: 2%;
+    text-align: center;
+    padding: 0;
 }
 .infomenu1 {   /*내정보*/
     text-align: left;
     padding: 0;
 }
 
-.likes   {   /*좋아요를 누른 사찰*/
+.temples {   /*좋아요를 누른 사찰*/
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;
