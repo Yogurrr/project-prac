@@ -11,7 +11,7 @@ const MainCommon = () => {
                 <Row className="fstr">
                     <Col className="col-5 offset-1">
                         <Col className="welcome">환영합니다</Col>
-                        <Col className="email">email<br />email@gmail.com</Col>
+                        <Col className="email">이메일<br />email@gmail.com</Col>
                     </Col>
                     <Col style={{textAlign: "right"}} className="buddhist col-5"><img src="/img/buddhist.png" /></Col>
                 </Row>

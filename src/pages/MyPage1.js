@@ -16,7 +16,7 @@ const MyPage1 = () => {
                     <Col className="infomenu1 col-5"><NavLink to='/myinfo'>내정보</NavLink></Col>
                 </Row>
                 <Row>
-                    <Col className="temples col-11 offset-1" style={{fontSize: "25px;"}}>좋아요를 누른 사찰</Col>
+                    <Col className="temples col-11 offset-1" style={{fontSize: "25px"}}>좋아요를 누른 사찰</Col>
                 </Row>
                 <Row className="tpl">
                     <Col className="likeslist col-10 offset-1">

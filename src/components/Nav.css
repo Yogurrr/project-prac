@@ -14,3 +14,15 @@
 .bi-person {
     font-size: 27px;
 }
+
+.calbtn {
+    background-color: white;
+    color: #331904;
+    font-size: 23px;
+    padding: 0;
+    border: 1px solid white;
+}
+
+.cal {
+    display: flex;
+}
