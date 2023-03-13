@@ -3,18 +3,18 @@
     margin-bottom: 40px;
 }
 
-/*환영합니다*/
-.container > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+.welcome {   /*환영합니다*/
     font-size: 30px;
     font-weight: bold;
     text-align: left;
     color: #331904;
-    margin-top: -3%;
+    padding-bottom: 5%;
 }
-
-.container-fluid > div:nth-child(2) > div:nth-child(1) {   /*이메일*/
+.email {   /*이메일*/
     text-align: left;
     font-size: 14px;
     color: #331904;
-    margin-top: 3%;
+    padding-left: 1%;
+}
+.buddhist {
 }

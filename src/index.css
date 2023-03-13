@@ -1,21 +1,3 @@
-.navBorder {
-  border-bottom: 1px solid #331904;
-  margin: 0 -300px;
-}
-.row {
-  display: flex;
-  align-items: center;
-  height: 56px;
-}
-.row a:link {
-  text-decoration: none;
-  color: #331904;
-}
-.row a:hover { color: #fd7e14; }
-.row a:visited { color: #331904; }
-.row a:active { color: #fd7e14; }
-
-
 footer {
   display: flex;
   justify-content: center;
@@ -26,5 +8,5 @@ footer p {
 }
 .footerBorder {
   border-bottom: 1px solid #331904;;
-  margin: 0 -300px;
+  margin: 0 -22%;
 }

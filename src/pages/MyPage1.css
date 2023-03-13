@@ -19,9 +19,13 @@
     text-align: left;
     padding: 0;
 }
+.infomenu1 a:link { text-decoration: none; }
+.infomenu1 a:hover { color: #fd7e14; }
+.infomenu1 a:visited { color: #331904; }
+.infomenu1 a:active { color: #fd7e14; }
 
 .temples {   /*좋아요를 누른 사찰*/
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     margin-bottom: 20px;
     font-size: 25px;
     font-weight: bold;
@@ -31,16 +35,19 @@
 .likeslist {
     display: flex;
     border: 2px solid #984C0C;
-    height: 100%;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
+    padding: 1.5% 0;
 }
 .likeslist > div {
     font-size: 20px;
     text-align: center;
 }
 
-.plz {
+.tpl {
     margin-bottom: 20px;
+}
+.tpl:last-child {
+    margin-bottom: 3%;
 }

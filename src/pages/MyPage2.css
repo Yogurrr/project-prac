@@ -9,6 +9,10 @@
     margin-left: -1%;
     padding: 0;
 }
+.likesmenu2 a:link { text-decoration: none; }
+.likesmenu2 a:hover { color: #fd7e14; }
+.likesmenu2 a:visited { color: #331904; }
+.likesmenu2 a:active { color: #fd7e14; }
 .bar2 {   /* | */
     max-width: 2%;
     text-align: center;
@@ -21,7 +25,7 @@
 }
 
 
-.aa {   /*개인정보 유출에 조심하세요*/
+.msg {   /*개인정보 유출에 조심하세요*/
     font-weight: bold;
     font-size: 25px;
     text-align: left;
@@ -29,22 +33,22 @@
     margin-bottom: 1%;
 }
 
-.bb {
+.psinfo {
     min-height: 200px;
     margin-bottom: 1%;
 }
-.bb > div:nth-child(1) {
+.psinfo > div:nth-child(1) {
     border: 2px solid #984C0C;
     border-radius: 12px;
     min-height: 200px;
     text-align: left;
 }
 
-.ddd {
+.bkinfo {
     min-height: 150px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
-.ddd > div:nth-child(1) {
+.bkinfo > div:nth-child(1) {
     border: 2px solid #984C0C;
     border-radius: 12px;
     min-height: 150px;

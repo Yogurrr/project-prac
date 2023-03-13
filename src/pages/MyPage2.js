@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col';
 import MainCommon from "../components/MainCommon";
 import './MyPage2.css'
 import {NavLink} from "react-router-dom";
-import {Card} from "react-bootstrap";
 
 const MyPage2 = () => {
     return (
@@ -16,17 +15,17 @@ const MyPage2 = () => {
                     <Col className="bar2 col-1">|</Col>
                     <Col className="infomenu2 col-5">내정보</Col>
                 </Row>
-                <Row className="aa">
-                    <Col xxl={{offset: 1}}>개인정보 유출에 조심하세요.</Col>
+                <Row className="msg">
+                    <Col className="offset-1">개인정보 유출에 조심하세요.</Col>
                 </Row>
-                <Row className="bb">
-                    <Col xxl={{offset: 1, span: 10}}>카드링크</Col>
+                <Row className="psinfo">
+                    <Col className="col-10 offset-1">카드링크</Col>
                 </Row>
-                <Row className="aa">
-                    <Col xxl={{offset: 1}}>예약 정보</Col>
+                <Row className="msg">
+                    <Col className="offset-1">예약 정보</Col>
                 </Row>
-                <Row className="ddd">
-                    <Col xxl={{offset: 1, span: 10}}>카드링크</Col>
+                <Row className="bkinfo">
+                    <Col className="col-10 offset-1">카드링크</Col>
                 </Row>
             </Container>
         </div>
