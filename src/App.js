@@ -6,12 +6,12 @@ import Content from "./components/Content";
 function App() {
   return (
     <div className="App">
+        <Nav />
+        <div style={{borderBottom: "1px solid #331904"}}></div>
         <div className="container">
-            <Nav />
             <Content />
-            <div className="footerBorder"></div>
-            <footer>copyright &copy; 2023. 팀명. All Rights Reserved.</footer>
         </div>
+        <footer>copyright &copy; 2023. 팀명. All Rights Reserved.</footer>
     </div>
   );
 }

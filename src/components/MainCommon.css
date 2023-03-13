@@ -1,6 +1,5 @@
-.container > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
-    margin-top: 90px;
-    margin-bottom: 40px;
+.fstr {   /* 메인 첫 번째 로우 */
+    padding-top: 60px;
 }
 
 .welcome {   /*환영합니다*/
@@ -15,6 +14,4 @@
     font-size: 14px;
     color: #331904;
     padding-left: 1%;
-}
-.buddhist {
 }

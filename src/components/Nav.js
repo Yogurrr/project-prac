@@ -15,7 +15,6 @@ const Nav = () => {
                     <Col className="col-3" style={{textAlign: "right"}}><NavLink to='/login'><i className="bi bi-person"></i></NavLink></Col>
                 </Row>
             </Container>
-            <div className="navBorder"></div>
         </div>
     )
 }

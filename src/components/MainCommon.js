@@ -8,7 +8,7 @@ const MainCommon = () => {
     return (
         <div>
             <Container fluid>
-                <Row>
+                <Row className="fstr">
                     <Col className="col-5 offset-1">
                         <Col className="welcome">환영합니다</Col>
                         <Col className="email">email<br />email@gmail.com</Col>
